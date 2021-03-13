@@ -24,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'p18705ly-j&+2__v6)6u!u-60ufr)(f(z9a39()+t(9k5g0dqx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-#ALLOWED_HOSTS = ['lavadotanques.com']
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','lavadotanques.com']
 
 
 # Application definition
@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'lavadotanques.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'seedch_seedcorp_db',
+        'USER': 'seedch_seedadm',
+        'PASSWORD': '27QFL2iNuv',
+        'HOST': 'seedcharlie.co',
+        'PORT': '3306',
     }
 }
 
