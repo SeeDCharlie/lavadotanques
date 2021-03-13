@@ -88,7 +88,7 @@ p {
 	color: #333333;
 	font-size: 52px;
 	font-weight: 500;
-	margin: 10px 30px;
+
 }
 
 .cs-section-heading h2 span {
@@ -384,13 +384,13 @@ Navbar Styling
 	color: #000000;
 	font-size: 30px;
 	font-weight: 700;
-	height: auto;
+	
 	padding: 7px 15px;
 }
 
 .cs-logo {
-	height: 36px;
-	width: 148px;
+	height: 20px;
+	width: 100px;
 }
 
 
@@ -658,9 +658,9 @@ header {
 
 .header-content h1 {
 	color:  #ffffff;
-	font-size: 40px;
-	font-weight: 300;
-	line-height: 50px;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 40px;
 	text-transform: uppercase;
 	margin-bottom: 35px;
 }
@@ -684,14 +684,28 @@ header {
 }
 
 .cs-header-form{
-	background-color:  #025AFA;
+	background-color:  rgba(0, 4, 224, 0.5);
+
 	max-width: 458px;display: block;margin: auto;
 	padding: 50px;
 	margin: 0px 60px;
 }
-.cs-header-form h2{color:  #ffffff;
-	font-size: 34px;margin: 0;
-	font-weight: 700; }
+.cs-header-form h2{
+	color:  #ffffff;
+	font-size: 20px;
+	margin: 0;
+	font-weight: 700; 
+}
+
+
+
+.logo img{
+	height: 75%;
+	width: 75%;
+	margin-top: -80px;
+}
+
+
 .cs-header-form h4{color:  #ffffff;
 	font-size: 16px;margin-top: 17px;margin-bottom: 36px;
 	font-weight: 500;}
@@ -1117,13 +1131,19 @@ Call to Action #Subscribe
 }
 
 .cs-call-action2 h2{color:  #ffffff;
-	font-size: 28px;
+	font-size: 50px;
+	text-align: right;
 	font-weight: 700;vertical-align: middle;margin: 0;margin-top: 10px;}
 .cs-call-action2 p{
 	color:  #ffffff;line-height: 22px;
 	font-size: 15px;
 	border-left: 1px solid #fff;padding-left: 40px;opacity: .6;
 	font-weight: 400;vertical-align: middle;margin: 0;margin-top: 5px;
+}
+.cs-call-action2 p {
+	font-size: 50px;
+	font-weight: 450;
+	text-align: left;
 }
 .widget-serch-btn {
 	font-size: 16px;
@@ -1249,8 +1269,15 @@ Icon Text
 	margin-bottom: 40px;
 }
 .cs-icon-text .icon{
-	color: #FAAC02;font-size: 40px;
+	color: #FAAC02;
+	font-size: 40px;
 }
+.cs-icon-text .icon img{
+	height: 20%;
+	width: 20%;
+}
+
+
 .cs-icon-text h4{
 	color:  #333333;
 	font-size: 22px;
@@ -1302,12 +1329,12 @@ Team Cards
 ---------------------------------------- */
 
 .section-small {
-	padding-top: 60px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 @media (min-width: 768px){
 	.section-small {
-		padding-top: 140px;
+		padding-top: 30px;
 		padding-bottom: 100px;
 	}
 }
