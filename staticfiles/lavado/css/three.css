@@ -1,0 +1,78 @@
+/* Theme */
+#switcher .theme-click {
+	background-color: #0798bc;
+}/* Forms */
+textarea:focus, select:focus, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="email"]:focus, .form-control:focus {
+	-webkit-box-shadow: 0px 0px 0px 1px #0798bc;
+	box-shadow: 0px 0px 0px 1px #0798bc;
+	border-color: #0798bc;
+}
+/* Buttons*/
+.cs-nav-btn {
+	background-color:  #0798bc;
+}
+.btn-primary {
+	background-color: #0798bc;
+}
+.btn-white-primary {
+	color: #0798bc;
+}
+/* nav*/
+.navbar-nav .cs-fa{
+	color: #0798bc;
+}
+.navbar-nav .cs-fa:hover{
+	border-color: #0798bc;	
+}
+
+/* About Icons */
+.cs-icon-text .icon {
+	color: #0798bc;
+}
+.cs-icon-text-link {
+	border-color: #0798bc;
+	color: #0798bc;
+}
+.cs-icon-text-link:hover{
+	color:  #0798bc;
+}
+/* Progress bar */
+.progress-bar {
+	background: #0798bc;
+}
+/* Call to action */
+.call-to-action h4 span {
+	color: #0798bc;
+}
+/* Blog */
+.cs-blog-category {
+	background-color: #0798bc;
+}
+/* Team */
+.cs-team-content p {
+	color: #0798bc;
+}
+.cs-team-content {
+	box-shadow: 0px 2px 0px 0px #0798bc;
+}
+.cs-team-content:after {
+	background-color: #0798bc;
+}
+/*Testimonial*/
+.cs-testimonial-message .fa {
+	background-color: #0798bc;
+}
+.cs-partner-logo:hover {
+	border-color: #0798bc;
+}
+/*footer*/
+.cs-link {
+	color: #0798bc;
+}
+.cs-contact-icontext .cs-icon {
+	color: #0798bc;
+}
+/* Icon color */
+.cs-icontext .cs-icon,.navbar-default.cs-primary-navbar .navbar-nav>li>a:hover,.navbar-default.cs-primary-navbar .navbar-nav>li>a:focus {
+	color: #0798bc;
+}

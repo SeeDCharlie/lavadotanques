@@ -1,0 +1,20 @@
+.centrar {
+
+    align-items: center; justify-content: center;text-align: center;
+}
+
+.btnContact{
+    margin: 50px 35px;
+    padding: 15px 50px;
+    font-size: 2rem;
+    
+}
+
+.btnContact a{
+    color: black;
+    font-weight: 700;
+}
+
+.btnContact a:hover{
+    text-decoration: underline;
+}

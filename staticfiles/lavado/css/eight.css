@@ -1,0 +1,83 @@
+/* Theme */
+#switcher .theme-click {
+	background-color: #ec407a;
+}/* Forms */
+textarea:focus, select:focus, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="email"]:focus, .form-control:focus {
+	-webkit-box-shadow: 0px 0px 0px 1px #ec407a;
+	box-shadow: 0px 0px 0px 1px #ec407a;
+	border-color: #ec407a;
+}
+/* Buttons*/
+.cs-nav-btn {
+	background-color:  #ec407a;
+}
+.btn-primary {
+	background-color: #ec407a;
+}
+.btn-white-primary {
+	color: #ec407a;
+}
+.btn-secondary:hover,.btn-primary:hover,.btn-black:hover,.btn-white-primary:hover,.cs-nav-btn:hover,
+.btn-white-secondary:hover {
+	color: #ec407a;
+	border-color:#ec407a;
+}
+/* nav*/
+.navbar-nav .cs-fa{
+	color: #ec407a;
+}
+.navbar-nav .cs-fa:hover{
+	border-color: #ec407a;	
+}
+
+/* About Icons */
+.cs-icon-text .icon {
+	color: #ec407a;
+}
+.cs-icon-text-link {
+	border-color: #ec407a;
+	color: #ec407a;
+}
+.cs-icon-text-link:hover{
+	color:  #ec407a;
+}
+/* Progress bar */
+.progress-bar {
+	background: #ec407a;
+}
+/* Call to action */
+.call-to-action h4 span {
+	color: #ec407a;
+}
+/* Blog */
+.cs-blog-category {
+	background-color: #ec407a;
+}
+/* Team */
+.cs-team-content p {
+	color: #ec407a;
+}
+.cs-team-content {
+	box-shadow: 0px 2px 0px 0px #ec407a;
+}
+.cs-team-content:after {
+	background-color: #ec407a;
+}
+/*Testimonial*/
+.cs-testimonial-message .fa {
+	background-color: #ec407a;
+}
+.cs-partner-logo:hover {
+	border-color: #ec407a;
+}
+/*footer*/
+.cs-link {
+	color: #ec407a;
+}
+.cs-contact-icontext .cs-icon {
+	color: #ec407a;
+}
+/* Icon color */
+.cs-icontext .cs-icon,.navbar-default.cs-primary-navbar .navbar-nav>li>a:hover,.navbar-default.cs-primary-navbar .navbar-nav>li>a:focus {
+	color: #ec407a;
+}
