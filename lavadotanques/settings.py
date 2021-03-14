@@ -27,7 +27,7 @@ SECRET_KEY = 'p18705ly-j&+2__v6)6u!u-60ufr)(f(z9a39()+t(9k5g0dqx'
 DEBUG = False
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['*','lavadotanques.com']
+ALLOWED_HOSTS = ['lavadotanques.com']
 
 
 # Application definition
