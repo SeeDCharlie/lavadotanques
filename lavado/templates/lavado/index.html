@@ -67,7 +67,8 @@
 					</div>
 				</div>
 				<div class="col-sm-6">
-					<form>
+					
+						{%csrf_token%}
 						<div class="cs-header-form">
 							<div class="logo centrar">
 								<img src="static/lavado/images/f_dos.png" alt="">
@@ -76,20 +77,20 @@
 							<h2>Deje sus datos para responderle</h2>
 							<br>
 							<div class="form-group cs-form-group">
-								<input type="text" class="form-control" placeholder="NOMBRE *" required="">
+								<input type="text" id="nombre" class="form-control" placeholder="NOMBRE *" required="">
 							</div>
 							<div class="form-group cs-form-group">
-								<input type="email" class="form-control" placeholder="CORREO ELECTRONICO *" required="">
+								<input type="email" id="email" class="form-control" placeholder="CORREO ELECTRONICO *" required="">
 							</div>
 							<div class="form-group cs-form-group">
-								<input type="text" class="form-control" placeholder="TELEFONO *" required="">
+								<input type="number" id="telefono" class="form-control" placeholder="TELEFONO *" required="">
 							</div>
 							<div>
 								<label><input type="checkbox" required="" id="cbox1" value="first_checkbox"> <a href="" style="color: aliceblue;" >Aceptacion politica y tratamiento de datos*</a></label><br><br>
 							</div>
-							<button type="submit" class="btn btn-primary btn-block">ENVIAR</button>
+							<button id="btnEnviar" class="btn btn-primary btn-block" url="{% url 'getContactForm' %}" >ENVIAR</button>
 						</div>
-					</form>
+					
 				</div>
 			</div>
 		</div>
@@ -197,6 +198,8 @@
 	<script src="{% static 'lavado/js/bootstrap.min.js' %}"></script>
 	<script src="{% static 'lavado/js/bootstrap.offcanvas.js' %}"></script>
 	<script src="{% static 'lavado/js/wow.min.js' %}"></script>
+	<script src="{% static 'lavado/js/mainCtrl.js' %}"></script>
+	<script src="{% static 'lavado/js/motorAjax.js' %}"></script>
 	<script src="{% static 'lavado/js/slider/owl.carousel.min.js' %}"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDO_lURb8GWwWr1uf2oIlH9Rx1NL9i2gWg"
 		type="text/javascript"></script>
