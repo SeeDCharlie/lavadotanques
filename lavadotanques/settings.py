@@ -120,8 +120,6 @@ EMAIL_PORT = 587
 
 LANGUAGE_CODE = 'es-spa'
 
-TIME_ZONE = 'UTC'
-
 TIME_ZONE = 'Etc/GMT+5'
 
 USE_I18N = True
