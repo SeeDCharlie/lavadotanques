@@ -9,8 +9,8 @@ cwd = os.getcwd()
 sys.path.append(cwd)
 sys.path.append(cwd + '/lavadotanques')  #You must add your project here
 
-sys.path.insert(0,'/home/seedch/venvSeedCorp/bin')
-sys.path.insert(0,cwd+'/home/seedch/venvSeedCorp/lib/python3.9/site-packages')
+sys.path.insert(0,'/home/siamco/envSiamco/bin')
+sys.path.insert(0,cwd+'/home/siamco/envSiamco/lib/python3.9/site-packages')
 
 os.environ['DJANGO_SETTINGS_MODULE'] = "lavadotanques.settings"
 from django.core.wsgi import get_wsgi_application
